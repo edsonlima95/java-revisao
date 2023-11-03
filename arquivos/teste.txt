@@ -1,0 +1,1 @@
+Adicionando um texto dentro do arquivo com bufferwriter
