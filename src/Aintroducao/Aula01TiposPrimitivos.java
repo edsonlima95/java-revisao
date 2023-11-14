@@ -7,7 +7,7 @@ public class Aula01TiposPrimitivos {
         // Valores inteiros - diferença é apenas o tamanho.
 
         byte idadeByte = 127; // Aceita numeros entre -128 ate 127 positivo.
-        short idadeShort = 12345; // Aceita apenas 5 numeros.
+        short idadeShort = 12345; // Aceita apenas 5 digitos.
 
         int idade = 20;
         long idadeLong = 30;

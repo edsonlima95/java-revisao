@@ -19,14 +19,15 @@ public class BlocoInicializacao {
         for (int i = 0; i < episodios.length ; i++) {
             episodios[i] = i+ 1;
         }
+        System.out.println("Bloco di inicialização iniciado");
     }
 
     public BlocoInicializacao(){
-
         //Mostra os valores.
         for(int episodio : this.episodios){
             System.out.print(episodio + " ");
         }
+
 
     }
 

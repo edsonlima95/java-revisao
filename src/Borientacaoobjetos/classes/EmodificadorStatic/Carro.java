@@ -4,8 +4,8 @@ public class Carro {
 
     /**
      * Propriedades static pertencem a classe, ou seja os objetos de instâncias nao tem acesso
-     * para acessar temos que chamar o nome da classe Carro.velocidadeMaxima uma vez alterado
-     * seu valor todos os objetos será afetado.
+     * para acessar-los, para isso temos que chamar o nome da classe ex: Carro.velocidadeMaxima
+     * uma vez alterado seu valor todos os objetos será afetado.
      */
 
     private String marca;
@@ -17,9 +17,13 @@ public class Carro {
     }
 
     public String getMarca() {
-        ;
-        return marca + " " + Carro.getVelocidadeMaxima();
+        return marca + " " + getVelocidadeMaxima();
     }
+
+    /**
+     * metodos marcados como estáticos, só aceitam propriedades também estáticas, porém
+     * metodos de instância podem acessar propriedades estáticas.
+     */
 
     public static int getVelocidadeMaxima() {
         return velocidadeMaxima;

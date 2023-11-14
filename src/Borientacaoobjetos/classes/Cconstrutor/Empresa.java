@@ -7,7 +7,7 @@ public class Empresa {
     private String email;
 
     //Construtor com parametros de inicialização
-    public Empresa(String nome, String endereco) {
+     public Empresa(String nome, String endereco) {
         this.nome = nome;
         this.endereco = endereco;
     }
@@ -23,7 +23,7 @@ public class Empresa {
     }
 
     //Construtor padrão, mesmo que nao declarado toda classe tem um padrão.
-    public Empresa(){}
+   public Empresa(){}
 
     @Override
     public String toString() {
